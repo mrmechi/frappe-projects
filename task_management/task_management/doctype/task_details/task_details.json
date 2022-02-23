@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Task Details.##",
+ "creation": "2022-02-22 00:42:53.571313",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tasks",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Link",
+   "label": "Tasks",
+   "options": "Tasks"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\nNot started\nWorking\nCompleted"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-02-22 20:08:58.129191",
+ "modified_by": "Administrator",
+ "module": "Task Management",
+ "name": "Task Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
