@@ -4,18 +4,11 @@
 import frappe
 from frappe.model.document import Document
 
-# class TeamMember(Document):
-# 	# def before_save(self):
-# 	# 	if not self.member_name:
-# 	# 		frappe.throw("Please enter member name")
-# 	pass
-
 
 class TeamMember(Document):
 	
 	def before_save(self):
 		if not self.member_name:
-			print("Please select member name#################################################")
 			frappe.throw("Member name is must")
 
 
